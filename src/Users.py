@@ -62,10 +62,10 @@ class Users(object):
       for line in c:
         self.idUsuario = line[0]
         self.nome = line[1]
-        self.telefone = line[3]
-        self.email = line[4]
-        self.usuario = line[5]
-        self.senha = line[6]
+        self.telefone = line[2]
+        self.email = line[3]
+        self.usuario = line[4]
+        self.senha = line[5]
       c.close()
       return "Usuário buscado com sucesso!"
     except:
